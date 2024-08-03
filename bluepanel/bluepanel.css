@@ -6,7 +6,7 @@ html, body {
 
 @font-face {
     font-family: 'WinXP';
-    src: url('https://2ba84e90-ea29-40a9-a6a4-6f70a0259631-00-1x62xh4sou1gv.kirk.replit.dev/win.ttf') format('opentype');
+    src: url('https://jy738.github.io/webxp/win.ttf') format('opentype');
 }
 .icon {
   width: 40px;
@@ -160,7 +160,7 @@ button:active {
   top: 0;
 }
 #start {
-  background-image: url('https://2ba84e90-ea29-40a9-a6a4-6f70a0259631-00-1x62xh4sou1gv.kirk.replit.dev/bluepanel/start.png');
+  background-image: url('https://jy738.github.io/webxp/bluepanel/start.png');
   width: 97px;
   height: 30px;
   background-position: 0px 0px;
@@ -186,7 +186,7 @@ button:active {
   top: 43%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-image: url('https://2ba84e90-ea29-40a9-a6a4-6f70a0259631-00-1x62xh4sou1gv.kirk.replit.dev/close.png');
+  background-image: url('https://jy738.github.io/webxp/close.png');
   width: 21px;
   height: 21px;
   filter: hue-rotate(163deg);
@@ -201,7 +201,7 @@ button:active {
 }
 
 .taskbar {
-  background-image: url('https://2ba84e90-ea29-40a9-a6a4-6f70a0259631-00-1x62xh4sou1gv.kirk.replit.dev/taskbar.png');
+  background-image: url('https://jy738.github.io/webxp/taskbar.png');
   filter: hue-rotate(10deg);
   height: 30px;
   width: 100%;
@@ -242,7 +242,7 @@ button:active {
 }
 
 #chatbar_cont{
-  background-image: url('https://2ba84e90-ea29-40a9-a6a4-6f70a0259631-00-1x62xh4sou1gv.kirk.replit.dev/taskbar.png');
+  background-image: url('https://jy738.github.io/webxp/taskbar.png');
   filter: hue-rotate(10deg);
   height: 30px;
   width: 100%;
