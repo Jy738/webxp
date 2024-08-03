@@ -181,9 +181,9 @@ button:active {
 
 .x {
   background-position-y: 0px;
-  position: relative;
-  left: max-contet;
-  top: 43%;
+  position: absolute;
+  right: 0%;
+  top: 8%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-image: url('https://jy738.github.io/webxp/close.png');
