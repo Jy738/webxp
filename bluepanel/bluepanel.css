@@ -182,7 +182,7 @@ button:active {
 .x {
   background-position-y: 0px;
   position: relative;
-  left: 68%;
+  left: max-contet;
   top: 43%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -207,7 +207,7 @@ button:active {
   width: 100%;
   position: absolute;
   bottom: 0px;
-  left:0px;
+  right: 3%;
 }
 /* ------- */
 
