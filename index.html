@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WebXP</title>
+</head>
+
+<body>
+  <div id="overlay" style="visibility: hidden;">Loading...</div>
+  <div id="content" style="width:100%;height:100%;">
+  <div id="aaa" class="icon" style="left: 2%; top: 2%;" onclick='XPWindow({width: "330px", height: "160px", x: "0px", y: "0px", type: "small_alert"},{title: "bla", body: "Warning! Update now!", buttons: "ok_cancel"});'>
+    bla
+  </div>
+  <div class="window_main" style="visibility:hidden;width:330px;height:160px;top:10%;left:10%;">
+       <div class="titlebar">
+         <p class="title">test</p>
+         <div class="x"></div>
+       </div>
+       <div class="window_box">
+          <div class="window_cont" style="">
+              <img class="emblem" src="Info.png"></img>
+              <div class="body">
+                Hello Sire, Your Computer Have Viros
+              </div>
+              <div class="choice">
+                <button>Ok</button>
+                &#160;
+                <button>Cancel</button>
+              </div>
+          </div>
+       </div>
+  </div>
+  <div class="taskbar"></div>
+ </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="/bluepanel/bluepanel.js"></script>
+</body>
+
+</html>

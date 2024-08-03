@@ -1,0 +1,218 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+    font-family: 'WinXP';
+    src: url('win.ttf') format("opentype");
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(56, 142, 255, 0.7);
+  position: absolute;
+  font-family: 'WinXP';
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0,0.8);
+}
+body {
+  background-image: url(bliss.jpg);
+  background-size: cover;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+}
+
+.window_main {
+  position: absolute;
+}
+
+.bla {
+  box-shadow:  -2px 0px 10px rgb(255, 255, 255,0.6) inset, -2px 0px 10px rgb(0, 2, 66,0.5) inset;
+}
+
+.titlebar {
+  background: rgb(35,73,158);
+  background: linear-gradient(0deg, rgba(35,73,158,1) 0%, rgba(53,104,227,1) 5%, rgba(82,177,247,1) 8%, rgba(63,122,238,1) 31%, rgba(0,95,209,1) 86%, rgba(84,179,255,1) 96%, rgba(0,74,161,1) 100%);
+  height: 32px;
+  background-position: 0px -3px;
+  width: 98.8%;
+  border-style: solid;
+  display: flex;
+  border-color: rgba(0,0,0,0.0);
+  border-radius: 6px 6px 6px 6px;
+}
+
+.emblem {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 20%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.title {
+  position: relative;
+  top: -15px;
+  left: 30px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 0px rgb(0, 0, 0,0.4);
+  user-select: none;
+}
+
+.body {
+  position: relative;
+  left: 60%;
+  top: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 62%;
+  height: 36%;
+  color: black;
+  font-family: 'WinXP';
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(0,0,0,0.0)
+}
+
+::placeholder {
+  font-family: 'WinXP';
+  color: rgba(0,0,0,0.4);
+  font-size: 16px;
+}
+
+.window_box {
+  position: relative;
+  top: -6px;
+  background-color: #0756d5;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 8px rgb(255, 255, 255,0.99) inset;
+}
+
+.choice {
+  position: relative;
+  display:flex;
+  left: 30%;
+  width: max-content;
+}
+
+button {
+  width: 70px;
+  height: 23px;
+  background-color: white;
+  font-family: 'WinXP';
+  font-size: 16px;
+  box-shadow: -1px -1px 2px 1px rgb(122, 180, 255,0.7) inset;
+  border-style: solid;
+  border-color: #6e8096;
+  border-width: 1px;
+  border-radius: 3px;
+  user-select: none;
+}
+
+button:hover {
+  box-shadow: -1px -1px 2px 2px rgb(165, 207, 233,0.6) inset;
+  border-color: #aac2df;
+}
+
+button:active {
+   background-color: #d9d9d9;
+   border-color: #4e5d6e;
+   box-shadow: -1px -1px 2px 2px rgb(71, 102, 144,0.6) inset;
+}
+
+.window_cont {
+  width: 98%;
+  height: 98%;
+  background-color: white;
+  position: relative;
+  left: 50%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#overlay {
+  font-family: 'WinXP';
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 9999;
+}
+
+#start {
+  background-image: url(start.png);
+  width: 97px;
+  height: 30px;
+  background-position: 0px 0px;
+}
+
+/* For Mobile */
+@media screen and (max-width: 640px) {
+    #start {
+      image-rendering: pixelated;
+      image-rendering: -moz-crisp-edges;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 640px) and (max-width: 760px) {
+    #start {
+      image-rendering: pixelated;
+      image-rendering: -moz-crisp-edges;
+    }
+}
+
+#start:hover {
+  background-position: 0px -33px;
+}
+
+#start:active {
+  background-position: 0px -66px;
+}
+
+.x {
+  background-position-y: 0px;
+  position: relative;
+  left: 86%;
+  top: 43%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-image: url(close.png);
+  width: 21px;
+  height: 21px;
+}
+
+.x:hover {
+  background-position-y: -21px;
+}
+
+.x:active {
+  background-position-y: -42px;
+}
+
+.taskbar {
+  background-image: url(taskbar.png);
+  filter: hue-rotate(10deg);
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+}
