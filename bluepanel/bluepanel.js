@@ -13,7 +13,7 @@
     'use strict';
 
 
-  var urlhost = "https://jy738.github.io/webxp/";
+  var urlhost = "https://jy738.github.io/webxp";
 
 document.body.innerHTML+='<link rel="stylesheet" href="'+urlhost+'/bluepanel/bluepanel.css">';
 
