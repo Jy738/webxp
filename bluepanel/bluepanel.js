@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Bluepanel 3.0 (BETA)
-// @namespace    http://webxp.rf.gd
+// @namespace    https://jy738.github.io/webxp/
 // @version      1.0
 // @description  Bluepanel 3.0 Client for BonziWORLD.org! some features will be broken cus its a beta
 // @author       Jy
@@ -13,7 +13,7 @@
     'use strict';
 
 
-  var urlhost = "https://2ba84e90-ea29-40a9-a6a4-6f70a0259631-00-1x62xh4sou1gv.kirk.replit.dev";
+  var urlhost = "https://jy738.github.io/webxp/";
 
 document.body.innerHTML+='<link rel="stylesheet" href="'+urlhost+'/bluepanel/bluepanel.css">';
 
